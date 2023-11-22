@@ -31,28 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Telegram Bot",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Developed a Telegram bot using the Telegram REST API and Python programming language to provide users with detailed information about cars. The bot utilizes web scraping techniques with Beautiful Soup and Selenium to navigate through interlinked websites like a crawler, extracting hard-to-find geeky features such as BHP, torque, CC, gearbox, and engine details",
+    url: "https://github.com/engorgedspirit/web_scraping",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Automatic Proxy Rotating Script",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Developed an automatic proxy rotating script written in Python. The script performs web scraping on different pre-entered sites or internal databases to collect thousands of proxy IP addresses. It then checks the functionality of these proxies by testing them on sites equipped with built-in proxy checkers or blockers. Only verified working proxies are provided as output. The script also includes an automatic IP rotation feature that changes the device's IP address every 5 minutes or as configured using proxy rotation techniques in Python.",
+    url: "https://github.com/engorgedspirit/web_scraping",
   },
   {
-    title: "My Resume Site",
+    title: "Tune-Tidbitter",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "A simplified UI for performing Spotify-like functionalities.  Users can request to perform typical actions available on Spotify through our site. Additionally, users can paste song links to scrape lyrics from the web and even process complete playlists. The project integrates technologies such as Python, Spotify API, Postman, and other relevant tools.",
+    url: "https://github.com/engorgedspirit/tune-tidbitter",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "CarLytics",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "The web application allows users to enter different types or categories of cars as prompts, such as 'sports' or 'city,' and generates three creative and relevant suggestions for car names specific to that category.",
+    url: "https://github.com/engorgedspirit/MS-openAI",
+  },
+  {
+    title: "GitMatrix",
+    description:
+      "This fun project allows users to add random commits to their Git profile on different dates. Users can specify the number of commits they want to make, and the project generates random commit messages for each commit. Additionally, users can control the commit dates to create dot matrix-like patterns in their GitHub profile.",
+    url: "https://github.com/engorgedspirit/git-bot",
+  },
+  {
+    title: "Language Guesser",
+    description:
+      "The Language Guesser project is built using Node.js and incorporates various npm modules, including franc, langs, and express. Its purpose is to predict the language of a given sentence from a vast array of more than 6000 languages and their subtypes.",
+    url: "https://github.com/engorgedspirit/language_guesser",
   },
 ];
 
